@@ -35,4 +35,4 @@ Title has been changed to better represent the websites content.
 <h3>Bottom of Website</h3>
 <img src="assets\images\website-bottom.png">
 
-<link href="https://github.com/JosephBalshaw/Joe-s_Week_1_Challange.git"/>
+<a>Link to website<a href="https://josephbalshaw.github.io/Joe-s_Week_1_Challange/"/>
