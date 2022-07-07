@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /*sets global defualt settings for box-sizing padding and margin*/
+}
+
+header{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    /*sets default setting for the header class*/
+}
+
+header h1{
+    display: inline-block;
+    font-size: 48px;
+    color: #ffffff;
+    /*changes h1 tag in the header class to the dispaly setting above font size to 48px and the color to the color code above*/
+} 
+     
+header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /*modifies the properties of the links within the header class and witht the nav tag*/
+}
+
+.seo{
+    color: #d9dcd6; 
+    /*sets the seo class to the above color*/
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+    /*specificaly targets the elements in the li tags so that there is no bulletpoints marking the list*/
+}
+
+body {
+    background-color: #d9dcd6;
+    /*changes the background color of all elements within the body tag*/
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    /*specifies the color of the element within the anchor tag as well as sets the text-decoration to none*/
+}
+
+p {
+    font-size: 16px;
+    /*give the p tag a default text size of 16px*/
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    /*This .hero class is the main image on the website. */
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    /*This makes the text for the socal-media-marketing and search-engine-optimisation float to the left of the images*/
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    /*This makes the text for online-reputation-management float right of the image*/
+}
+
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    /*give the section with class content the above properties where the width is set to 75% to allow room for the aside*/
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    /*gives the aside with the class benefits the above properties. this aside floats right so it doesn't conflict with the main section and has a width of 20% of the webpage as the main section takes up 75%*/
+}
+
+.benefit-lead,.benefit-brand,.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+    /*consolidates the above classes as they all need the same properties */
+}
+.benefit-lead h3,.benefit-brand h3,.benefit-cost h3{
+    margin-bottom: 10px;
+    text-align: center;
+    /*consolidates the above classes as they all need the same properties */
+}
+.benefit-lead img,.benefit-brand img,.benefit-cost img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    /*consolidates the above classes as they all need the same properties */
+}
+.search-engine-optimization,.online-reputation-management,.social-media-marketing{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    /*consolidates the above classes as they all need the same properties */
+}
+.search-engine-optimization img,.online-reputation-management img,.social-media-marketing img {
+    max-height: 200px;
+    /*consolidates the above classes as they all need the same properties */
+}
+
+.search-engine-optimization h2,.online-reputation-management h2,.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    /*consolidates the above classes as they all need the same properties */
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    /*sets default footer settings to the above*/
+}
+
+footer h2 {
+    font-size: 20px;
+    /*changes the h2 tag in the footer class to */
+}
