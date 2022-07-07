@@ -31,8 +31,8 @@ Title has been changed to better represent the websites content.
 <h2>Screenshots of the website</h2>
 
 <h3>Top of Website</h3>
-<img src="Develop\assets\images\website-top.png">
+<img src="assets\images\website-top.png">
 <h3>Bottom of Website</h3>
-<img src="Develop\assets\images\website-bottom.png">
+<img src="assets\images\website-bottom.png">
 
 <link href="https://github.com/JosephBalshaw/Joe-s_Week_1_Challange.git"/>
